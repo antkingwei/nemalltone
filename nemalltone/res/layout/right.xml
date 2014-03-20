@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:orientation="vertical" xmlns:app="http://schemas.android.com/apk/res/com.rolmex.android.nemalltone">
+    
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/space_size_10"
+    >
+    <com.rolmex.android.nemalltone.widget.CircleImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"
+        app:border_width="2dp"
+        app:border_color="@color/white"
+        />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/right_user_id"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_16"
+        android:text="10000001"
+        />
+</LinearLayout>
+</LinearLayout>
